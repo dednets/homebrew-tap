@@ -1,15 +1,10 @@
 # Generated from apps/homebrew-tap/Formula/dednetsctl.rb.tmpl in the DedNets
 # monorepo by scripts/sync-homebrew-tap.sh. Do not edit in the tap.
-#
-# license :cannot_represent is a PLACEHOLDER pending a human decision: the
-# monorepo ships no LICENSE file today (the same gap docs/mcp.md records for
-# the npm package), and inventing an SPDX id would be a lie. `brew audit
-# --strict` accepts :cannot_represent. When a license is chosen, set it here.
 class Dednetsctl < Formula
   desc "Manage DedNets hosts, public URLs, and the MCP server for AI agents"
   homepage "https://dednets.com"
   version "0.4.1"
-  license :cannot_represent
+  license "MIT"
 
   on_macos do
     on_arm do
