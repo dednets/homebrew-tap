@@ -17,10 +17,6 @@ covers macOS (Apple Silicon and Intel) and Linux (arm64 and amd64). Windows
 gets no formula: Homebrew does not run there. Download the CLI from your
 Console's `/dist` instead.
 
-If `brew install` answers "No available formula", this tap has not published
-one yet: the repository is created ahead of the first release that ships the
-formula, so `brew tap dednets/tap` already works.
-
 Point it at your Console and give it a token before first use:
 
 ```sh
