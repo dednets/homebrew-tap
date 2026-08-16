@@ -3,28 +3,28 @@
 class Dednetsctl < Formula
   desc "Manage DedNets hosts, public URLs, and the MCP server for AI agents"
   homepage "https://dednets.com"
-  version "0.7.1"
+  version "0.8.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://releases.dednets.com/cli/v0.7.1/dednetsctl-0.7.1-darwin-arm64.tar.gz"
-      sha256 "945471bb5f68ac34f13dfa98dee72a6a4b4331c9e9e27f7856fe66d50de767dc"
+      url "https://releases.dednets.com/cli/v0.8.0/dednetsctl-0.8.0-darwin-arm64.tar.gz"
+      sha256 "a4c822965ca8fa32b9b6219370d26216f8f44e6f36d76f9a1cc0b8505221edbb"
     end
     on_intel do
-      url "https://releases.dednets.com/cli/v0.7.1/dednetsctl-0.7.1-darwin-amd64.tar.gz"
-      sha256 "6b4db8b62f6a38403eef971ebfd8a27c7c3487e87183e63608003bbb9d703806"
+      url "https://releases.dednets.com/cli/v0.8.0/dednetsctl-0.8.0-darwin-amd64.tar.gz"
+      sha256 "69125fa657add3e9448f257915501c03f3cacccb0025b6d230ab608e904c6bee"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://releases.dednets.com/cli/v0.7.1/dednetsctl-0.7.1-linux-arm64.tar.gz"
-      sha256 "76238a380e2f4cc9d667eca755c5b2b9b774b0e8708e4328af1f458ef179184a"
+      url "https://releases.dednets.com/cli/v0.8.0/dednetsctl-0.8.0-linux-arm64.tar.gz"
+      sha256 "b410d1b141d1a09c61015ce9ee18e6da32d8ce94f71add91cc888408a7876d04"
     end
     on_intel do
-      url "https://releases.dednets.com/cli/v0.7.1/dednetsctl-0.7.1-linux-amd64.tar.gz"
-      sha256 "8dbee064dc74b052005aeade6ab594734e5fc10c65a0d534e0677c2830248b8a"
+      url "https://releases.dednets.com/cli/v0.8.0/dednetsctl-0.8.0-linux-amd64.tar.gz"
+      sha256 "0eedf1e2e2fc085aac667b8a9f726c9091c5989242949cd9fa0b32e380566fba"
     end
   end
 
